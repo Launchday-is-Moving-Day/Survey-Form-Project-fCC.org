@@ -262,7 +262,7 @@ input[type=checkbox] {
   color: #000000;
   background-color: rgb(100, 100, 100);/* Dimgray */
   position: relative;
-  /* this is to keep the style of these element's border consistent on some browsers (like Chrome) */
+  /* this is to keep the style of these element's border consistent on some browsers (like Firefox) */
   border-width: 2px 0 0 2px;
   border-color: rgba(0, 0, 0, 0.3) rgb(100, 100, 100) rgb(100, 100, 100) rgba(0, 0, 0, 0.3);
   display: inline-block;
@@ -287,7 +287,7 @@ input[type=checkbox] {
 
 #dropdown, #dropdown-2nd {
   margin: auto auto auto 169.5px;
-  /* added these two because of codepen's rich text editor (CodeMirror) differentiating Behavior */
+  /* added these two because of vscode's rich text editor differentiating Behavior */
   width: 85.347%;
   height: 2.5rem;
 }
