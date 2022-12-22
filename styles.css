@@ -438,5 +438,6 @@ display: block;
 /*@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
 div:not(*:root) {
 display: block;
+*/
 }
 }
