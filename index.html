@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+  <title>gta IV: Remastered Early Access Feedback Survey</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="split-right">
+    <div id="container" class="container">
+      <h1 id="title"><a id="gta-logo"><a id="g">gRand</a><a id="t">theft</a><a id="a">auto</a></a><a
+          id="game-title">IV</a><a id="legal"> ™</a><a id="new">:</a> <a id="remastered-title">Remastered </a>Early Access Survey</h1>
+      <p id="description" class="description">This is the official Rockstar Games survey for providing feedback about
+        the Up-and-Coming <a id="remastered-title-desc">Remaster</a> of <a id="gta-logo-desc"><a id="g-desc">gRand</a><a
+            id="t-desc">theft</a><a id="a-desc">auto</a></a><a id="game-title-desc">IV</a><a id="legal"> ™</a>before the
+        initial public release, thank you for taking part in the early access test, please fill out this form and submit
+        it</p>
+      <form id="survey-form" action='https://survey-demo.freecodecamp.org'>
+        <fieldset id="f-one" class="fieldset">
+          <div class="help-box">
+            <span class="clue">^: Optional</span>
+            <span class="clue">*: Required</span>
+          </div>
+          <br>
+          <div class="form-block">
+            <span class="clue-special-char">*</span>
+            <label id="name-label" class="basic-info-label" for="name">Full Name: </label>
+            <input id="name" name="name" type="text" placeholder="Ex: Niko Bellic" class="basic-info" required="" />
+          </div>
+          <div class="form-block">
+            <span class="clue-special-char">*</span>
+            <label id="email-label" class="basic-info-label" for="email">Email: </label>
+            <input id="email" name="email" type="email" placeholder="NikoBellic@eyefind.info" class="basic-info" required="" />
+          </div>
+          <div class="form-block">
+            <span class="clue-special-char">*</span>
+            <label id="number-label" for="number" class="basic-info-label">Age: </label>
+            <input id="number" type="number" name="age" min="17" max="169" placeholder="30" class="basic-info" required=""/>
+          </div>
+          <div class="form-block-flex">
+            <span class="clue-special-char" id="dropdown-clue">*</span>
+            <p class="same-line">For how long have you tried the Game?</p>
+            <select id="dropdown" name="play-time" class="select" required>
+              <option disabled="" selected="" value="">Choose an Option</option>
+              <option value="lessThan5H">Less than 5 Hours</option>
+              <option value="5To10H">5 - 10 Hours</option>
+              <option value="10To15H">10 - 15 Hours</option>
+              <option value="15To20H">15 - 20 Hours</option>
+              <option value="moreThan20H">More than 20 Hours</option>
+            </select>
+          </div>
+          <div class="form-block">
+            <span class="clue-special-char" id="wanted-level-rating-widget-clue">^</span>
+            <p class="wanted-level-widget-p">Please rate The Game</p>
+            <!-- the stars go from right to left just like the game's wanted level system -->
+            <div class="wanted-level-rating-widget">
+              <input type="radio" name="rate" value="6" id="six" class="input-radio"/>
+              <label for="six"></label>
+              <input type="radio" name="rate" value="5" id="five" class="input-radio"/>
+              <label for="five"></label>
+              <input type="radio" name="rate" value="4" id="four" class="input-radio"/>
+              <label for="four"></label>
+              <input type="radio" name="rate" value="3" id="three" class="input-radio"/>
+              <label for="three"></label>
+              <input type="radio" name="rate" value="2" id="two" class="input-radio"/>
+              <label for="two"></label>
+              <input type="radio" name="rate" value="1" id="one" class="input-radio"/>
+              <label for="one"></label>
+              <span class="hidden"><a id="game_title_easter_egg">IV</a><a id="legal_easter_egg"> ™</a></span>
+            </div>
+        </fieldset>
+        <fieldset id="f-two" class="fieldset">
+          <div class="form-block-flex">
+            <span class="clue-special-char" id="dropdown-clue">^</span>
+            <p class="same-line">What did you like most about the Game?</p>
+            <select id="dropdown-2nd" name="mostLikedFeat" class="select">
+              <option disabled="" selected="" value="">Choose an Option</option>
+              <option value="enhancedVisuals">Enhanced Visuals & Graphical Fidelity</option>
+              <option value="improvedAudio">Improved Audio Quality</option>
+              <option value="betterAnimations">New & Better Animations</option>
+              <option value="optimization">Performance Optimizations</option>
+              <option value="aiImprovements">More NPC interactions & AI Improvements</option>
+              <option value="newGameMechanics">New & Improved Game Mechanics</option>
+              <option value="qol">Overall QOL</option>
+              <option value="newUI">New & Improved User Interface and Menus</option>
+              <option value="newMiniGames">New mini-games</option>
+              <option value="additionalGameContent">Additional Game Content (ie: More Free Roam Activities, Side Missions, Random Encounters and Collectibles...etc)</option>
+              <option value="expandedLC">Expanded Liberty City Map & Additional Locations</option>
+              <option value="art">Game Art</option>
+              <option value="customization">Robust Game Customization</option>
+            </select>
+          </div>
+          <div class="form-block">
+            <div>
+              <span class="clue-special-char" id="to-improve">^</span>
+              <p class="to-improve-p">What would you like to see improved about the Game?</p>
+              <span class="clue">(Check as many as you want)</span>
+            </div>
+            <div>
+              <label class="align-input">
+                <input type="checkbox" value="visuals" class="input-checkbox" name="check"/>Visuals & Graphical Fidelity
+              </label>
+            </div>
+            <div>
+              <label class="align-input">
+                <input type="checkbox" value="audio" class="input-checkbox" name="check"/>Audio Quality
+              </label>
+            </div>
+            <div>
+              <label class="align-input">
+                <input type="checkbox" value="animations" class="input-checkbox" name="check"/>Animations
+              </label>
+            </div>
+            <div>
+              <label class="align-input">
+                <input type="checkbox" value="performance" class="input-checkbox" name="check"/>Performance & Optimization
+              </label>
+            </div>
+            <div>
+              <label class="align-input">
+                <input type="checkbox" value="AI" class="input-checkbox" name="check"/>NPCs & AI
+              </labeL>
+            </div>
+            <div>
+              <label class="align-input">
+                <input type="checkbox" value="game-mechanics" class="input-checkbox" name="check"/>Game Mechanics
+              </label>
+            </div>
+            <div>
+              <label class="align-input">
+                <input type="checkbox" value="QOL" class="input-checkbox" name="check"/>Overall QOL
+              </label>
+            </div>
+            <div>
+              <label class="align-input">
+                <input type="checkbox" value="UI" class="input-checkbox" name="check"/>User Interface and Menus
+              </label>
+            </div>
+            <div>
+              <label class="align-input">
+                <input type="checkbox" value="mini-games" class="input-checkbox" name="check"/>mini-games
+              </label>
+            </div>
+            <div>
+              <label class="align-input">
+                <input type="checkbox" value="general-content" class="input-checkbox" name="check"/>General Game Content (Free Roam Activities, Side Missions, Random Encounters and Collectibles...etc)  
+              </label>
+            </div>
+            <div>
+              <labeL class="align-input">
+                <input type="checkbox" value="environment" class="input-checkbox" name="check"/>Dull & Uncanny Environments
+              </label>
+            </div>
+            <div>
+              <label class="align-input">
+                <input type="checkbox" value="game-art" class="input-checkbox" name="check"/>Game Art
+              </label>
+            </div>
+            <div>
+              <label class="align-input">
+                <input type="checkbox" value="customizability" class="input-checkbox" name="check"/>Customizability
+              </label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset class="fieldset">
+          <div class="form-block">
+            <span class="clue-special-char" id="review">^</span>
+            <p class="review-p">Please write a review</p>
+            <!-- Add a quote from the Game to the textarea placeholder -->
+            <textarea id="additional-input" class="input-textarea" name="Additional-Input" placeholder="Your Review..."></textarea>
+          </div>
+          <div class="form-block">
+            <button id="submit" type="submit" class="hvr-border-inset">Submit</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
