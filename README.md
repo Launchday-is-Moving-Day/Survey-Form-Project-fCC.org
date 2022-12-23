@@ -1,5 +1,5 @@
 # Survey-Form-Project.freecodecamp.org
-My first Project For freeCodeCamp's RWD Curriculum: a Survey Form for the cancelled gta IV: Remastered thanks to the disaster that is the gta trilogy remaster
+My first Project For freeCodeCamp's RWD Curriculum: a Survey Form for the cancelled gta IV: Remastered thanks to the disaster that was the gta trilogy remaster
 
 Take a look at the page: https://launchday-is-moving-day.github.io/survey-form-project.freecodecamp.org/
 
